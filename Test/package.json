@@ -8,13 +8,17 @@
     "build/**/*"
   ],
   "publishConfig": {
-    "registry": "https://github.com/tanmayj14/ist-date"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": "https://github.com/tanmayj14/ist-date",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }

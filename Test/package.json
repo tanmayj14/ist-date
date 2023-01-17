@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "1.0.3",
-  "description": "",
+  "description": "ist_date",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [

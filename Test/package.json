@@ -1,6 +1,6 @@
 {
-  "name": "test",
-  "version": "1.0.3",
+  "name": "ist-date",
+  "version": "1.0.1",
   "description": "ist_date",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -10,15 +10,22 @@
   "publishConfig": {
     "@tanmayj14:registry": "https://npm.pkg.github.com/"
   },
-  "repository": "https://github.com/tanmayj14/ist-date",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmayj14/ist-date.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "del ./build && tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "tanmay jha",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.9.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tanmayj14/ist-date/issues"
+  },
+  "homepage": "https://github.com/tanmayj14/ist-date#readme"
 }
